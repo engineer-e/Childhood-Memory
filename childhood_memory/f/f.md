@@ -2,8 +2,10 @@
 
 > My GrandFather and GrandMother are died.
 
-> In childhood or kid, I wear Court suit. 
+### The Kid with Court Suit in this below Image, It was me. 
 ![](https://raw.githubusercontent.com/engineer-e/Childhood-Memory/refs/heads/main/childhood_memory/f/f12.jpeg)
+### The Kid with Shorts and T-Shirt in this below Image, It was me. 
+
 ![](https://raw.githubusercontent.com/engineer-e/Childhood-Memory/refs/heads/main/childhood_memory/f/f5.jpeg)
 
 
