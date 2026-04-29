@@ -16,7 +16,14 @@
 ![](https://raw.githubusercontent.com/engineer-e/Childhood-Memory/refs/heads/main/childhood_memory/f/f3.jpeg)
 
 ### I dress like Detective during kid age.
+- The Kid with blue hat, Is me.
+- The tall girl is Uncle Daughter (Thara) and the tall boy is Uncle Son (Logesh)
+- The baby is my young brother (Kishore kumar)
+  
 ![](https://raw.githubusercontent.com/engineer-e/Childhood-Memory/refs/heads/main/childhood_memory/f/f4.jpeg)
+
+---
+
 ![](https://raw.githubusercontent.com/engineer-e/Childhood-Memory/refs/heads/main/childhood_memory/f/f6.jpeg)
 ![](https://raw.githubusercontent.com/engineer-e/Childhood-Memory/refs/heads/main/childhood_memory/f/f7.jpeg)
 ![](https://raw.githubusercontent.com/engineer-e/Childhood-Memory/refs/heads/main/childhood_memory/f/f8.jpeg)
