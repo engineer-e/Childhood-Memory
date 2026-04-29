@@ -30,3 +30,11 @@
 ![](https://raw.githubusercontent.com/engineer-e/Childhood-Memory/refs/heads/main/childhood_memory/f/f18.jpeg)
 ![](https://raw.githubusercontent.com/engineer-e/Childhood-Memory/refs/heads/main/childhood_memory/f/f19.jpeg)
 
+# After Some age > Not like to go to function, Due to many society, Systems and life changed lot during my growth time. 
+
+> new electronic device and medicinal improvement came during my age growth, after sometime, I started to feel my life become boring and I planned to do die, due to my struggle, But my mom and dad, save me otherwise I Died in Childhood itself.
+
+> After Sometime, I not like to go to any function and relative home, due to some kind pressure than love. Even, now I not going to any function and not like to go out for travels. I always alone in the home learn for to live in life and secure me & my parents.
+
+
+
