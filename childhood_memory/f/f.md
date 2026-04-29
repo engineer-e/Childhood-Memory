@@ -3,6 +3,7 @@
 > My GrandFather and GrandMother are died.
 
 ![](https://raw.githubusercontent.com/engineer-e/Childhood-Memory/refs/heads/main/childhood_memory/f/f12.jpeg)
+![](https://raw.githubusercontent.com/engineer-e/Childhood-Memory/refs/heads/main/childhood_memory/f/f5.jpeg)
 
 
 # Childhood function
@@ -13,8 +14,6 @@
 
 ### I dress like Detective during kid age.
 ![](https://raw.githubusercontent.com/engineer-e/Childhood-Memory/refs/heads/main/childhood_memory/f/f4.jpeg)
-
-![](https://raw.githubusercontent.com/engineer-e/Childhood-Memory/refs/heads/main/childhood_memory/f/f5.jpeg)
 ![](https://raw.githubusercontent.com/engineer-e/Childhood-Memory/refs/heads/main/childhood_memory/f/f6.jpeg)
 ![](https://raw.githubusercontent.com/engineer-e/Childhood-Memory/refs/heads/main/childhood_memory/f/f7.jpeg)
 ![](https://raw.githubusercontent.com/engineer-e/Childhood-Memory/refs/heads/main/childhood_memory/f/f8.jpeg)
