@@ -3,7 +3,10 @@
 ![](https://raw.githubusercontent.com/engineer-e/Childhood-Memory/refs/heads/main/childhood_memory/f/f1.jpeg)
 ![](https://raw.githubusercontent.com/engineer-e/Childhood-Memory/refs/heads/main/childhood_memory/f/f2.jpeg)
 ![](https://raw.githubusercontent.com/engineer-e/Childhood-Memory/refs/heads/main/childhood_memory/f/f3.jpeg)
+
+### I dress like Detective.
 ![](https://raw.githubusercontent.com/engineer-e/Childhood-Memory/refs/heads/main/childhood_memory/f/f4.jpeg)
+
 ![](https://raw.githubusercontent.com/engineer-e/Childhood-Memory/refs/heads/main/childhood_memory/f/f5.jpeg)
 ![](https://raw.githubusercontent.com/engineer-e/Childhood-Memory/refs/heads/main/childhood_memory/f/f6.jpeg)
 ![](https://raw.githubusercontent.com/engineer-e/Childhood-Memory/refs/heads/main/childhood_memory/f/f7.jpeg)
