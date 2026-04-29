@@ -38,4 +38,4 @@
 
 > I studied , only one School for 15 years from pre. K. G to 12th Std. No true relationship with anyone, even talk to during interval and launch, All fights to get Ranks, Money, to Settle in life , Moved in the path of race. No true learning. Just Memorization and Forgetting, but my parents and me, Struggle lot to pay the school fees.
 
-> I not show my pain to others. Since, It not important to others, I know from L.K.G itself, no one think about others. But say like Want to develop India. Since, I watched and Hear lot detective story stuff. 
+> I not show my pain to others. Since, It not important to others, I know from L.K.G itself, no one think about others. But say like Want to develop India, this are lie statement giving from rich and elite people, They only secure their family only, not care about others. Detective or Solider kind of people been die for those rich people. Since, I watched and Hear lot detective story stuff. 
