@@ -36,5 +36,6 @@
 
 > After Sometime, I not like to go to any function and relative home, due to some kind pressure than love. Even, now I not going to any function and not like to go out for travels. I always alone in the home learn for to live in life and secure me & my parents.
 
+> I studied , only one School for 15 years from pre. K. G to 12th Std. No true relationship with anyone, even talk to during interval and launch, All fights to get Ranks, Money, to Settle in life , Moved in the path of race. No true learning. Just Memorization and Forgetting, but my parents and me, Struggle lot to pay the school fees.
 
-
+> I not show my pain to others. Since, It not important to others, I know from L.K.G itself, no one think about others. But say like Want to develop India. Since, I watched and Hear lot detective story stuff. 
