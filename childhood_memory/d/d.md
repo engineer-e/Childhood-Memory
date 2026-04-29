@@ -1,9 +1,11 @@
 # Daddy related Image
 
 ![](https://raw.githubusercontent.com/engineer-e/Childhood-Memory/refs/heads/main/childhood_memory/d/d1.jpeg)
-![](https://raw.githubusercontent.com/engineer-e/Childhood-Memory/refs/heads/main/childhood_memory/d/d4.jpeg)
-![](https://raw.githubusercontent.com/engineer-e/Childhood-Memory/refs/heads/main/childhood_memory/d/d5.jpeg)
 ![](https://raw.githubusercontent.com/engineer-e/Childhood-Memory/refs/heads/main/childhood_memory/d/d7.jpeg)
+![](https://raw.githubusercontent.com/engineer-e/Childhood-Memory/refs/heads/main/childhood_memory/d/d4.jpeg)
+
+### Girl like baby is me, My mom comb the hair like girl during that time.
+![](https://raw.githubusercontent.com/engineer-e/Childhood-Memory/refs/heads/main/childhood_memory/d/d5.jpeg)
 
 
 # Tafe Company - Function - I participate from childhood.
