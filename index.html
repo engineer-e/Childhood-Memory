@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Gobal Krishnan</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+
+  <!-- Babylon globals (kept so window.BABYLON is available if your app expects it) -->
+  <script src="https://assets.babylonjs.com/generated/Assets.js"></script>
+  <script src="https://cdn.babylonjs.com/recast.js"></script>
+  <script src="https://cdn.babylonjs.com/ammo.js"></script>
+  <script src="https://cdn.babylonjs.com/havok/HavokPhysics_umd.js"></script>
+  <script src="https://cdn.babylonjs.com/cannon.js"></script>
+  <script src="https://cdn.babylonjs.com/Oimo.js"></script>
+  <script src="https://cdn.babylonjs.com/earcut.min.js"></script>
+  <script src="https://cdn.babylonjs.com/babylon.js"></script>
+  <script src="https://cdn.babylonjs.com/materialsLibrary/babylonjs.materials.min.js"></script>
+  <script src="https://cdn.babylonjs.com/proceduralTexturesLibrary/babylonjs.proceduralTextures.min.js"></script>
+  <script src="https://cdn.babylonjs.com/postProcessesLibrary/babylonjs.postProcess.min.js"></script>
+  <script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.js"></script>
+  <script src="https://cdn.babylonjs.com/serializers/babylonjs.serializers.min.js"></script>
+  <script src="https://cdn.babylonjs.com/gui/babylon.gui.min.js"></script>
+  <script src="https://cdn.babylonjs.com/addons/babylonjs.addons.min.js"></script>
+  <script src="https://cdn.babylonjs.com/inspector/babylon.inspector.bundle.js"></script>
+
+  <style>
+    html,body,#renderCanvas{width:100%;height:100%;margin:0;padding:0;overflow:hidden;background:#000}
+  </style>
+</head>
+<body>
+  <canvas id="renderCanvas"></canvas>
+  <script type="module">
+    // Turn bundle text into a module URL
+    const code = "// snapshot:index.js\nvar createScene = function() {\n  var scene = new BABYLON.Scene(engine);\n  scene.clearColor = new BABYLON.Color3(0.5, 0.7, 1);\n  scene.collisionsEnabled = true;\n  scene.gravity = new BABYLON.Vector3(0, -0.08, 0);\n  var camera = new BABYLON.UniversalCamera(\n    \"camera\",\n    new BABYLON.Vector3(5, -9, -5),\n    scene\n  );\n  camera.attachControl(canvas, true);\n  camera.speed = 0.8;\n  camera.angularSensibility = 5e3;\n  camera.inertia = 0.9;\n  camera.checkCollisions = true;\n  camera.applyGravity = true;\n  camera.ellipsoid = new BABYLON.Vector3(0.5, 2.2, 0.5);\n  camera.ellipsoidOffset = new BABYLON.Vector3(0, 1.2, 0);\n  camera.minZ = 0.2;\n  new BABYLON.HemisphericLight(\n    \"light\",\n    new BABYLON.Vector3(0, 2, 0),\n    scene\n  );\n  scene.skipPointerMovePicking = true;\n  BABYLON.SceneLoader.ImportMeshAsync(\n    \"\",\n    \"https://raw.githubusercontent.com/engineer-e/Childhood-Memory/main/childhood_memory/glb/model/\",\n    \"gobalkrishnan_childhood.glb\",\n    scene\n  ).then((result) => {\n    result.meshes.forEach((mesh) => {\n      mesh.checkCollisions = true;\n      if (mesh.material) {\n        mesh.material.backFaceCulling = false;\n        mesh.material.twoSidedLighting = true;\n      }\n      mesh.freezeWorldMatrix();\n    });\n    scene.createOrUpdateSelectionOctree();\n  });\n  return scene;\n};\nvar index_default = createScene;\nexport {\n  index_default as default\n};\n//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsic25hcHNob3Q6aW5kZXguanMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbInZhciBjcmVhdGVTY2VuZSA9IGZ1bmN0aW9uICgpIHtcblxuICAgIC8vIFNDRU5FXG4gICAgdmFyIHNjZW5lID0gbmV3IEJBQllMT04uU2NlbmUoZW5naW5lKTtcblxuICAgIHNjZW5lLmNsZWFyQ29sb3IgPSBuZXcgQkFCWUxPTi5Db2xvcjMoMC41LCAwLjcsIDEpO1xuXG4gICAgLy8gQ09MTElTSU9OIFNZU1RFTVxuICAgIHNjZW5lLmNvbGxpc2lvbnNFbmFibGVkID0gdHJ1ZTtcblxuICAgIC8vIEdSQVZJVFlcbiAgICBzY2VuZS5ncmF2aXR5ID0gbmV3IEJBQllMT04uVmVjdG9yMygwLCAtMC4wOCwgMCk7XG5cbiAgICAvLyBDQU1FUkFcbiAgICB2YXIgY2FtZXJhID0gbmV3IEJBQllMT04uVW5pdmVyc2FsQ2FtZXJhKFxuICAgICAgICBcImNhbWVyYVwiLFxuICAgICAgICBuZXcgQkFCWUxPTi5WZWN0b3IzKDUsIC05LCAtNSksXG4gICAgICAgIHNjZW5lXG4gICAgKTtcblxuICAgIGNhbWVyYS5hdHRhY2hDb250cm9sKGNhbnZhcywgdHJ1ZSk7XG5cbiAgICAvLyBNT1ZFTUVOVFxuICAgIGNhbWVyYS5zcGVlZCA9IDAuODtcblxuICAgIGNhbWVyYS5hbmd1bGFyU2Vuc2liaWxpdHkgPSA1MDAwO1xuXG4gICAgY2FtZXJhLmluZXJ0aWEgPSAuOTtcblxuICAgIC8vIENPTExJU0lPTlxuICAgIGNhbWVyYS5jaGVja0NvbGxpc2lvbnMgPSB0cnVlO1xuXG4gICAgY2FtZXJhLmFwcGx5R3Jhdml0eSA9IHRydWU7XG5cbiAgICAvLyBQTEFZRVIgQk9EWVxuICAgIGNhbWVyYS5lbGxpcHNvaWQgPSBuZXcgQkFCWUxPTi5WZWN0b3IzKDAuNSwgMi4yLCAwLjUpO1xuXG4gICAgLy8gUExBWUVSIEhFSUdIVCBPRkZTRVRcbiAgICBjYW1lcmEuZWxsaXBzb2lkT2Zmc2V0ID0gbmV3IEJBQllMT04uVmVjdG9yMygwLCAxLjIsIDApO1xuXG4gICAgLy8gUFJFVkVOVCBXQUxMIENMSVBQSU5HXG4gICAgY2FtZXJhLm1pblogPSAwLjIwO1xuXG4gICAgLy8gTElHSFRcbiAgICBuZXcgQkFCWUxPTi5IZW1pc3BoZXJpY0xpZ2h0KFxuICAgICAgICBcImxpZ2h0XCIsXG4gICAgICAgIG5ldyBCQUJZTE9OLlZlY3RvcjMoMCwgMiwgMCksXG4gICAgICAgIHNjZW5lXG4gICAgKTtcblxuICAgIC8vIFBFUkZPUk1BTkNFXG4gICAgc2NlbmUuc2tpcFBvaW50ZXJNb3ZlUGlja2luZyA9IHRydWU7XG5cbiAgICAvLyBMT0FEIE1PREVMXG4gICAgQkFCWUxPTi5TY2VuZUxvYWRlci5JbXBvcnRNZXNoQXN5bmMoXG4gICAgICAgIFwiXCIsXG4gICAgICAgXCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vZW5naW5lZXItZS9DaGlsZGhvb2QtTWVtb3J5L21haW4vY2hpbGRob29kX21lbW9yeS9nbGIvbW9kZWwvXCIsXG4gICAgICAgXCJnb2JhbGtyaXNobmFuX2NoaWxkaG9vZC5nbGJcIixcbiAgICAgICAgc2NlbmVcbiAgICApLnRoZW4oKHJlc3VsdCkgPT4ge1xuXG4gICAgICAgIHJlc3VsdC5tZXNoZXMuZm9yRWFjaCgobWVzaCkgPT4ge1xuXG4gICAgICAgICAgICAvLyBFTkFCTEUgQ09MTElTSU9OXG4gICAgICAgICAgICBtZXNoLmNoZWNrQ29sbGlzaW9ucyA9IHRydWU7XG5cbiAgICAgICAgICAgIC8vIEZJWCBCQUNLRkFDRSAvIElOU0lERSBXQUxMU1xuICAgICAgICAgICAgaWYgKG1lc2gubWF0ZXJpYWwpIHtcblxuICAgICAgICAgICAgICAgIG1lc2gubWF0ZXJpYWwuYmFja0ZhY2VDdWxsaW5nID0gZmFsc2U7XG5cbiAgICAgICAgICAgICAgICBtZXNoLm1hdGVyaWFsLnR3b1NpZGVkTGlnaHRpbmcgPSB0cnVlO1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAvLyBQRVJGT1JNQU5DRVxuICAgICAgICAgICAgbWVzaC5mcmVlemVXb3JsZE1hdHJpeCgpO1xuXG4gICAgICAgIH0pO1xuXG4gICAgICAgIC8vIE9QVElNSVpBVElPTlxuICAgICAgICBzY2VuZS5jcmVhdGVPclVwZGF0ZVNlbGVjdGlvbk9jdHJlZSgpO1xuXG4gICAgfSk7XG5cbiAgICByZXR1cm4gc2NlbmU7XG59O1xuZXhwb3J0IGRlZmF1bHQgY3JlYXRlU2NlbmVcblxuXG4vLyMgc291cmNlVVJMPWZpbGU6Ly8vcGcvaW5kZXguanMiXSwKICAibWFwcGluZ3MiOiAiO0FBQUEsSUFBSSxjQUFjLFdBQVk7QUFHMUIsTUFBSSxRQUFRLElBQUksUUFBUSxNQUFNLE1BQU07QUFFcEMsUUFBTSxhQUFhLElBQUksUUFBUSxPQUFPLEtBQUssS0FBSyxDQUFDO0FBR2pELFFBQU0sb0JBQW9CO0FBRzFCLFFBQU0sVUFBVSxJQUFJLFFBQVEsUUFBUSxHQUFHLE9BQU8sQ0FBQztBQUcvQyxNQUFJLFNBQVMsSUFBSSxRQUFRO0FBQUEsSUFDckI7QUFBQSxJQUNBLElBQUksUUFBUSxRQUFRLEdBQUcsSUFBSSxFQUFFO0FBQUEsSUFDN0I7QUFBQSxFQUNKO0FBRUEsU0FBTyxjQUFjLFFBQVEsSUFBSTtBQUdqQyxTQUFPLFFBQVE7QUFFZixTQUFPLHFCQUFxQjtBQUU1QixTQUFPLFVBQVU7QUFHakIsU0FBTyxrQkFBa0I7QUFFekIsU0FBTyxlQUFlO0FBR3RCLFNBQU8sWUFBWSxJQUFJLFFBQVEsUUFBUSxLQUFLLEtBQUssR0FBRztBQUdwRCxTQUFPLGtCQUFrQixJQUFJLFFBQVEsUUFBUSxHQUFHLEtBQUssQ0FBQztBQUd0RCxTQUFPLE9BQU87QUFHZCxNQUFJLFFBQVE7QUFBQSxJQUNSO0FBQUEsSUFDQSxJQUFJLFFBQVEsUUFBUSxHQUFHLEdBQUcsQ0FBQztBQUFBLElBQzNCO0FBQUEsRUFDSjtBQUdBLFFBQU0seUJBQXlCO0FBRy9CLFVBQVEsWUFBWTtBQUFBLElBQ2hCO0FBQUEsSUFDRDtBQUFBLElBQ0E7QUFBQSxJQUNDO0FBQUEsRUFDSixFQUFFLEtBQUssQ0FBQyxXQUFXO0FBRWYsV0FBTyxPQUFPLFFBQVEsQ0FBQyxTQUFTO0FBRzVCLFdBQUssa0JBQWtCO0FBR3ZCLFVBQUksS0FBSyxVQUFVO0FBRWYsYUFBSyxTQUFTLGtCQUFrQjtBQUVoQyxhQUFLLFNBQVMsbUJBQW1CO0FBQUEsTUFDckM7QUFHQSxXQUFLLGtCQUFrQjtBQUFBLElBRTNCLENBQUM7QUFHRCxVQUFNLDhCQUE4QjtBQUFBLEVBRXhDLENBQUM7QUFFRCxTQUFPO0FBQ1g7QUFDQSxJQUFPLGdCQUFROyIsCiAgIm5hbWVzIjogW10KfQo=\n";
+    const blob = new Blob([code], { type: 'text/javascript' });
+    const url = URL.createObjectURL(blob);
+
+    const BABYLON = window.BABYLON;
+    const canvas = document.getElementById('renderCanvas');
+
+    // Import your bundled app (which exports createScene / default)
+    const mod = await import(url);
+
+    let engine = null;
+    if (typeof mod.createEngine === 'function') {
+      try { engine = await mod.createEngine(); } catch {}
+    }
+    if (!engine) {
+      engine = new BABYLON.Engine(canvas, true, { preserveDrawingBuffer: true, stencil: true });
+    }
+    window.engine = engine; window.canvas = canvas;
+
+    let createScene = mod.createScene || mod.default;
+    if (!createScene && mod.Playground?.CreateScene) createScene = (e,c)=>mod.Playground.CreateScene(e,c);
+    if (!createScene) throw new Error('No createScene() export found.');
+
+    const scene = await (createScene(engine, canvas) ?? createScene());
+    engine.runRenderLoop(()=>scene.render());
+    addEventListener('resize', ()=>engine.resize());
+
+    addEventListener('unload', ()=> URL.revokeObjectURL(url));
+  </script>
+</body>
+</html>
